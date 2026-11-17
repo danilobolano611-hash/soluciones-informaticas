@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+}
+
+.encabezado {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.bienvenida {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #0d6efd;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+button, .btn {
+    margin: 5px;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #084298;
+    color: white;
+}
+
+.contacto {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+}
+
+.accesibilidad {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000;
+}
+
+#btnAccesibilidad {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+.menu-accesibilidad {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    width: 190px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+}
+
+.menu-accesibilidad.activo {
+    display: block;
+}
+
+.menu-accesibilidad button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-accesibilidad button:hover {
+    background-color: #084298;
+}
